@@ -142,7 +142,7 @@ export default function LandingPage() {
       products={[
         {
           id: "p1",          brand: "Atlas",          name: "Architectural Shingles",          price: "High Performance",          rating: 5,
-          reviewCount: "500+",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-roof-house-made-wooden-tiles_169016-25417.jpg"},
+          reviewCount: "500+",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAe4BrTfI9CrjBldicDiGfbMZB/tmp/atlas-shingle-roof-1777749952196-a2a6816d.png"},
         {
           id: "p2",          brand: "Standard",          name: "Attic Ventilation",          price: "Energy Efficient",          rating: 5,
           reviewCount: "300+",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-ventilation-system_23-2149388996.jpg"},
