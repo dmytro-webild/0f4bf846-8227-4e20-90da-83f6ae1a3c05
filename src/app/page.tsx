@@ -176,6 +176,8 @@ export default function LandingPage() {
           id: "s2",          title: "Storm Repairs",          description: "Fast damage restoration.",          tag: "Emergency",          imageSrc: "http://img.b2bpic.net/free-photo/metal-chimney-sky_1150-12608.jpg"},
         {
           id: "s3",          title: "Siding Installation",          description: "Professional exterior siding.",          tag: "Siding",          imageSrc: "http://img.b2bpic.net/free-photo/3d-geometric-abstract-twist-background_1048-16965.jpg"},
+        {
+          id: "s4",          title: "Stucco",          description: "Professional stucco services.",          tag: "Stucco",          imageSrc: "http://img.b2bpic.net/free-photo/texture-stucco_1203-2593.jpg"},
       ]}
       title="Our Full Suite of Exterior Solutions"
       description="Comprehensive residential envelope services for North New Jersey."
@@ -247,6 +249,7 @@ export default function LandingPage() {
             { label: "Roofing", href: "#services" },
             { label: "Siding", href: "#services" },
             { label: "Ventilation", href: "#services" },
+            { label: "Stucco", href: "#services" },
           ],
         },
         {
