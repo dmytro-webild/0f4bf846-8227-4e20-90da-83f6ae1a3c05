@@ -38,7 +38,9 @@ export default function AboutPage() {
             useInvertedBackground={false}
             title="Our Story & Expertise"
             description={[
-              "With over 25 years of experience as a building envelope manufacturer representative in North New Jersey, we bring unparalleled technical knowledge to every project.",              "Our founder spent years teaching local contractors best installation methods, ensuring that every project is executed to the highest industry standard.",              "Through his leadership at Acro Blending & Packaging LLC and the launch of this business, he brings a deep understanding of wall systems, product manufacturing, and high-level installation standards to your doorstep."
+              "With over 25 years of experience as a building envelope manufacturer representative in North New Jersey, we bring unparalleled technical knowledge to every project.",              
+              "Our founder spent years training local contractors in North New Jersey, emphasizing proper product selection combined with expert installation as the foundation of building longevity.",              
+              "Through his leadership at Acro Blending & Packaging LLC, he brings a deep understanding of wall systems, product manufacturing, and high-level industry standards directly to your residential project."
             ]}
           />
         </div>

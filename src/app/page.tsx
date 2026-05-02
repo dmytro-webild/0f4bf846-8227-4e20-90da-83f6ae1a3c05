@@ -2,14 +2,10 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactText from '@/components/sections/contact/ContactText';
-import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
-import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import HeroSplitDoubleCarousel from '@/components/sections/hero/HeroSplitDoubleCarousel';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
-import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
+import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 
 export default function LandingPage() {
@@ -31,9 +27,9 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         { name: "About", id: "/about" },
-        { name: "Products", id: "#products" },
-        { name: "Services", id: "#services" },
-        { name: "Contact", id: "#contact" },
+        { name: "Products", id: "/#products" },
+        { name: "Services", id: "/#services" },
+        { name: "Contact", id: "/#contact" },
       ]}
       brandName="Manufacturers"
     />
@@ -53,8 +49,8 @@ export default function LandingPage() {
         { imageSrc: "http://img.b2bpic.net/free-photo/closeup-roof-house-made-wooden-tiles_169016-24989.jpg", imageAlt: "Roofing system" },
       ]}
       buttons={[
-        { text: "Schedule Inspection", href: "#contact" },
-        { text: "Get Estimate", href: "#contact" },
+        { text: "Schedule Inspection", href: "/#contact" },
+        { text: "Get Estimate", href: "/#contact" },
       ]}
     />
   </div>
@@ -85,8 +81,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterBaseReveal
       columns={[
-        { title: "Services", items: [{ label: "Roofing", href: "#services" }, { label: "Siding", href: "#services" }] },
-        { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Contact", href: "#contact" }] },
+        { title: "Services", items: [{ label: "Roofing", href: "/#services" }, { label: "Siding", href: "/#services" }] },
+        { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Contact", href: "/#contact" }] },
       ]}
       logoText="Manufacturers Roofing & Siding"
     />
