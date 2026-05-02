@@ -109,9 +109,9 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <TextSplitAbout
       useInvertedBackground={false}
-      title="Roofing Done With a Manufacturer’s Mindset"
+      title="Bringing Manufacturer-Level Knowledge to Your Home"
       description={[
-        "Manufacturers Roofing & Siding was built on a simple principle: a home’s exterior system should be installed correctly the first time using proven products.",        "With over 25 years of experience, we bring technical expertise to roofing, siding, and ventilation systems across North New Jersey.",        "We specialize in the complete residential envelope—the systems that work together to protect your home’s structure."]}
+        "With over 25 years of experience as a building envelope manufacturer representative in North New Jersey, we bring unparalleled technical knowledge to every project. We don't just install; we educate, having spent years training local contractors on industry-leading installation best practices.",        "Our unique expertise lies in our dual perspective: product manufacturing and system installation. Our founder also owns Acro Blending & Packaging LLC, a toll manufacturer that provided critical materials for high-profile projects like the LGA Delta terminal terrazzo floors and Wawa locations across the East Coast.",        "When you choose us, you are choosing a partner who understands the chemistry and engineering of your roof and siding systems, ensuring professional, manufacturer-backed results for your home."]}
     />
   </div>
 
