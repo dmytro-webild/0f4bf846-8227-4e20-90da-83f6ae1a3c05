@@ -25,7 +25,7 @@ export default function AboutPage() {
           <NavbarLayoutFloatingOverlay
             navItems={[
               { name: "Home", id: "/" },
-              { name: "Products", id: "/#products" },
+              { name: "Products", id: "/products" },
               { name: "Services", id: "/#services" },
               { name: "Contact", id: "/#contact" },
             ]}
@@ -49,7 +49,7 @@ export default function AboutPage() {
           <FooterBaseReveal
             columns={[
               { title: "Services", items: [{ label: "Roofing", href: "/#services" }, { label: "Siding", href: "/#services" }] },
-              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Contact", href: "/#contact" }] },
+              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Products", href: "/products" }, { label: "Contact", href: "/#contact" }] },
             ]}
             logoText="Manufacturers Roofing & Siding"
           />
