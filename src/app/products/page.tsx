@@ -38,6 +38,7 @@ export default function ProductsPage() {
             title="Our Premium Roofing Solutions"
             description="Discover high-performance roofing materials engineered for durability and aesthetics."
             textboxLayout="split"
+            useInvertedBackground={false}
             features={[
               {
                 tag: "Performance",                title: "Atlas Shingles",                subtitle: "Industry-leading roofing protection",                description: "Atlas shingles are designed to withstand harsh weather conditions while maintaining superior curb appeal for years to come.",                imageSrc: "http://img.b2bpic.net/free-photo/closeup-roof-house-made-wooden-tiles_169016-24989.jpg"
@@ -54,11 +55,11 @@ export default function ProductsPage() {
 
         <div id="footer" data-section="footer">
           <FooterBaseReveal
+            logoText="Manufacturers Roofing & Siding"
             columns={[
               { title: "Services", items: [{ label: "Roofing", href: "/#services" }, { label: "Siding", href: "/#services" }] },
               { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Products", href: "/products" }, { label: "Contact", href: "/#contact" }] },
             ]}
-            logoText="Manufacturers Roofing & Siding"
           />
         </div>
       </ReactLenis>
