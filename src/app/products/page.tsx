@@ -2,9 +2,9 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import FeatureCardNineteen from '@/components/sections/feature/FeatureCardNineteen';
+import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
+import FooterSimple from '@/components/sections/footer/FooterSimple';
+import FeatureCardTwentyEight from '@/components/sections/feature/FeatureCardTwentyEight';
 
 export default function ProductsPage() {
   return (
@@ -22,19 +22,19 @@ export default function ProductsPage() {
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
-          <NavbarLayoutFloatingOverlay
+          <NavbarStyleApple
             navItems={[
               { name: "Home", id: "/" },
               { name: "About", id: "/about" },
               { name: "Products", id: "/products" },
-              { name: "Contact", id: "/#contact" },
+              { name: "Contact", id: "/contact" },
             ]}
             brandName="Manufacturers"
           />
         </div>
 
         <div id="products" data-section="products">
-          <FeatureCardNineteen
+          <FeatureCardTwentyEight
             title="Atlas Shingles: Premium Roofing Systems"
             description="Explore the technical benefits and durability specifications of our Atlas high-performance shingle lines."
             textboxLayout="split"
@@ -42,24 +42,23 @@ export default function ProductsPage() {
             animationType="slide-up"
             features={[
               {
-                tag: "Technology",                title: "CORE4 Technology",                subtitle: "Unmatched Strength",                description: "Atlas shingles are engineered with CORE4 technology to provide superior impact resistance and flexibility in extreme temperatures, ensuring long-term structural integrity.",                imageSrc: "http://img.b2bpic.net/free-photo/closeup-roof-house-made-wooden-tiles_169016-24989.jpg"
+                id: "1",                category: "Technology",                title: "CORE4 Technology",                subtitle: "Unmatched Strength",                value: "Atlas shingles are engineered with CORE4 technology to provide superior impact resistance and flexibility in extreme temperatures, ensuring long-term structural integrity."
               },
               {
-                tag: "Protection",                title: "3M Scotchgard™ Protector",                subtitle: "Algae Resistance",                description: "Our premium shingles feature genuine 3M Scotchgard™ to defend your roof against unsightly black streaks caused by algae, maintaining your home's curb appeal for decades.",                imageSrc: "http://img.b2bpic.net/free-photo/modern-house-architecture-navy-roof-wooden-soffit-blue-sky_626616-509.jpg"
+                id: "2",                category: "Protection",                title: "3M Scotchgard™ Protector",                subtitle: "Algae Resistance",                value: "Our premium shingles feature genuine 3M Scotchgard™ to defend your roof against unsightly black streaks caused by algae, maintaining your home's curb appeal for decades."
               },
               {
-                tag: "Specifications",                title: "High Wind Warranty",                subtitle: "Weather Endurance",                description: "Designed to meet the highest industry standards, these shingles provide exceptional wind uplift resistance and durability even in severe weather conditions common to North New Jersey.",                imageSrc: "http://img.b2bpic.net/free-photo/full-shot-smiley-man-working-roof_23-2149343672.jpg"
+                id: "3",                category: "Specifications",                title: "High Wind Warranty",                subtitle: "Weather Endurance",                value: "Designed to meet the highest industry standards, these shingles provide exceptional wind uplift resistance and durability even in severe weather conditions common to North New Jersey."
               }
             ]}
           />
         </div>
 
         <div id="footer" data-section="footer">
-          <FooterBaseReveal
-            logoText="Manufacturers Roofing & Siding"
+          <FooterSimple
             columns={[
-              { title: "Services", items: [{ label: "Roofing", href: "/#services" }, { label: "Siding", href: "/#services" }] },
-              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Products", href: "/products" }, { label: "Contact", href: "/#contact" }] },
+              { title: "Services", items: [{ label: "Roofing", href: "/" }, { label: "Siding", href: "/" }] },
+              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Products", href: "/products" }, { label: "Contact", href: "/contact" }] },
             ]}
           />
         </div>
