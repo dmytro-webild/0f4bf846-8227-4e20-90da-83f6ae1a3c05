@@ -60,6 +60,8 @@ export default function ProductsPage() {
               { title: "Services", items: [{ label: "Roofing", href: "/" }, { label: "Siding", href: "/" }] },
               { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Products", href: "/products" }, { label: "Contact", href: "/contact" }] },
             ]}
+            bottomLeftText="© 2024 Manufacturers Inc."
+            bottomRightText="All rights reserved."
           />
         </div>
       </ReactLenis>
