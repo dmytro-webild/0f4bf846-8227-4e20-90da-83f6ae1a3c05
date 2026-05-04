@@ -71,7 +71,7 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        { id: "f1", title: "Expert Knowledge", description: "Deep understanding of roofing, wall assemblies, and moisture management.", tag: "Expertise", imageSrc: "http://img.b2bpic.net/free-photo/photo-ground-texture-pattern_58702-15928.jpg" },
+        { id: "f1", title: "Expert Knowledge", description: "Deep understanding of roofing, wall assemblies, and moisture management.", tag: "Expertise", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DAe4BrTfI9CrjBldicDiGfbMZB/tmp/atlas-shingles-1777898344932-3f02f492.png" },
       ]}
       title="Why Homeowners Choose Us"
       description="Expert systems, premium materials, and prompt service."
