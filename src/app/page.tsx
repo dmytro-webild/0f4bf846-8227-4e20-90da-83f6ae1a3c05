@@ -38,7 +38,9 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitDoubleCarousel
       background={{ variant: "plain" }}
-      title="Manufacturers Roofing & Siding"
+      title="Manufactures Roofing & Siding
+
+"
       description="Premium roofing, siding, and ventilation systems installed with manufacturer-level expertise. 25+ years of experience protecting homes in North New Jersey."
       leftCarouselItems={[
         { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-smiley-man-working-roof_23-2149343672.jpg", imageAlt: "House roofing" },
